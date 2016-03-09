@@ -1,0 +1,42 @@
+{
+  "name": "goodeggs",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "test": "mocha --require react-native-mock/mock.js --compilers js:babel-core/register --recursive src/**/__tests__/*-test.js",
+    "start": "react-native start",
+    "test:watch": "npm run test -- --watch"
+  },
+  "dependencies": {
+    "apsl-react-native-button": "git+https://git@github.com/bartonhammond/react-native-button.git",
+    "baobab": "^2.3.3",
+    "baobab-react": "^1.0.1",
+    "immutable": "^3.7.6",
+    "key-mirror": "^1.0.1",
+    "lodash": "^4.6.1",
+    "react-native": "^0.18.1",
+    "react-native-gifted-spinner": "0.0.3",
+    "react-native-scrollview-lazyload": "^1.0.5",
+    "react-native-simple-store": "^0.1.0",
+    "react-native-simpledialog-android": "^1.0.2",
+    "react-native-tab-navigator": "^0.2.15",
+    "react-native-vector-icons": "^1.1.0",
+    "regenerator": "^0.8.42",
+    "tcomb-form-native": "^0.3.3",
+    "underscore": "^1.8.3",
+    "validate.js": "^0.9.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "chai": "^3.5.0",
+    "dirty-chai": "^1.2.2",
+    "docker": "^0.2.14",
+    "enzyme": "^2.0.0",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5",
+    "react": "^0.14.7",
+    "react-addons-test-utils": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-native-mock": "0.0.6"
+  }
+}
